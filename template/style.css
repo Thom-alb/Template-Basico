@@ -1,3 +1,17 @@
+:root{
+    --principal-bg-color: #fff;
+    --principal-txt-color: #333333;
+
+    --header-bg-color: #3c71c0; 
+    --header-titulo-color: #e3f4ff;
+    --main-bg-color: #4c1dce;
+
+
+    --footer-bg-color: #c2c2c2;
+    --footer-btn-color: #4c1dce;
+    --footer-text-color:#c2acff;
+}
+
 *{
     margin: 0;
     padding: 0;
