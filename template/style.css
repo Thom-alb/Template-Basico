@@ -15,7 +15,6 @@
   margin: 0;
   padding: 0;
   font-family: Arial;
-
 }
 
 .header {
@@ -23,12 +22,11 @@
   position: relative;
   display: flex;
   justify-content: center;
-
-} 
+}
 
 .header .floresta {
   display: block;
-  width: 100%; 
+  width: 100%;
   height: 600px;
 }
 
@@ -36,64 +34,68 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
 
   color: #fff;
   font-size: 200px;
   font-weight: bold;
 }
 
-.main{
-    margin: 40px 100px;
+.main {
+  margin: 40px 100px;
   display: flex;
   flex-direction: column;
 }
-.main img{
-    width: 80%;
-    height: 400px;
+.main img {
+  width: 80%;
+  height: 400px;
 }
-.main p{
-    margin: 20px 0px;
+.main p {
+  margin: 20px 0px;
 }
 .main h2 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
-.footer{
-    width: 14000;
-    padding: 40px 100px;
-    background-color: #c2c2c2;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+.footer {
+  width: 14000;
+  padding: 40px 100px;
+  background-color: #c2c2c2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-.footer .card{
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+.footer .card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
-.footer .card span{
-    font-size: 38px;
-    font-weight: bold;
-    margin-bottom: 40px;
-
-}
-
-.footer .card img{
-    width: 300px;
-    height: 150px;
-
-}
-.footer .card button{
-    padding: 5px;
-    border-radius: 30px;
-    border: none;
-    background-color: #f88a30;
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    width: 160px;
+.footer .card span {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 40px;
 }
 
+.footer .card img {
+  width: 300px;
+  height: 150px;
+}
+.footer .card button {
+  padding: 5px;
+  border-radius: 30px;
+  border: none;
+  background-color: #f88a30;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  width: 160px;
+    transition-duration: 0.5s;
+
+
+  &:hover {
+    transform: scale(1.2);
+    background-color: #d07428;
+  }
+}
