@@ -1,19 +1,43 @@
-:root{
-    --principal-bg-color: #fff;
-    --principal-txt-color: #333333;
+:root {
+  --principal-bg-color: #fff;
+  --principal-txt-color: #333333;
 
-    --header-bg-color: #3c71c0; 
-    --header-titulo-color: #e3f4ff;
-    --main-bg-color: #4c1dce;
+  --header-bg-color: #3c71c0;
+  --header-titulo-color: #e3f4ff;
+  --main-bg-color: #4c1dce;
 
-
-    --footer-bg-color: #c2c2c2;
-    --footer-btn-color: #4c1dce;
-    --footer-text-color:#c2acff;
+  --footer-bg-color: #c2c2c2;
+  --footer-btn-color: #4c1dce;
+  --footer-text-color: #c2acff;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Arial;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+
 }
+
+.header {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+
+} 
+
+.header .floresta {
+  display: block;
+  width: 100%; 
+}
+
+.header span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+
+  color: #fff;
+  font-size: 200px;
+  font-weight: bold;
+}
+
